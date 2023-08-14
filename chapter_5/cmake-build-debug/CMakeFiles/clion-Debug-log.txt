@@ -1,0 +1,11 @@
+/opt/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/ouyangyiqi/Learning/Linux/chapter_5 -B /home/ouyangyiqi/Learning/Linux/chapter_5/cmake-build-debug
+-- The C compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+CMake Error: CMake can not determine linker language for target: chapter_5
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.

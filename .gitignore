@@ -1,0 +1,12 @@
+**/out/
+**/*.out/
+"**/.git"
+"**/.svn": true
+"**/.hg
+"**/CVS
+"**/.DS_Store
+"**/Thumbs.db
+"**/.idea
+"**/cmake-build-debug
+**/pdf/
+**/*.pdf

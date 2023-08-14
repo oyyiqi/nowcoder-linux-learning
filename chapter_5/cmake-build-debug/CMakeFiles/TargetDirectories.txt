@@ -1,0 +1,3 @@
+/home/ouyangyiqi/Learning/Linux/chapter_5/cmake-build-debug/CMakeFiles/chapter_5.dir
+/home/ouyangyiqi/Learning/Linux/chapter_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ouyangyiqi/Learning/Linux/chapter_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir

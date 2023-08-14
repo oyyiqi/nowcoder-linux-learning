@@ -1,0 +1,16 @@
+NAME
+       write - write to a file descriptor
+
+SYNOPSIS
+       #include <unistd.h>
+
+       ssize_t write(int fd, const void *buf, size_t count);
+
+DESCRIPTION
+       write()  writes up to count bytes from the buffer starting at buf to the file referred to by
+       the file descriptor fd.
+
+       The number of bytes written may be less than count if, for example,  there  is  insufficient
+       space  on  the underlying physical medium, or the RLIMIT_FSIZE resource limit is encountered
+       (see setrlimit(2)), or the call was interrupted by a signal  handler  after  having  written
+       less than count bytes.  (See also pipe(7).)
